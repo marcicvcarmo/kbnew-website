@@ -1,0 +1,199 @@
+html{
+  height: 100%;
+}
+body{ text-align: center;
+  
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+
+
+
+
+.instagram-button{  
+  background: none;
+  border: none;
+  color:black;
+  cursor: pointer;  
+  font-size: 19px;
+  font-family: 'Delicious Handrawn', cursive;
+
+  }
+
+.Facebook-button{
+  background: none ;
+  border: none;
+  color:black;
+  font-size: 16px;
+  cursor:pointer
+}
+
+.joint-button:active{
+  opacity: 0.7;
+}
+
+
+
+
+.tweeter-button{
+  background: none;  
+  color:black;
+  border:none;
+  height: 36px;
+  width: 74px; 
+  font-weight: bold;
+  font-size: 15px;
+  cursor:pointer;
+  
+}
+
+
+.request-button{
+  background: none;
+  border: none;
+  color:black;
+  cursor: pointer;  
+  font-size: 19px;
+  font-family: 'Delicious Handrawn', cursive;
+  
+}
+
+
+
+  
+  
+.sign-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);    
+}
+
+
+
+Body.home-page {
+  background-color: rgba(0, 0, 0, 0.816);
+  background-image: url(img/groom-putting-ring-bride-s-finger\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;    
+}
+
+Body.Florida {
+  background-color: rgba(0, 0, 0, 0.816);
+  background-image: url(IMG/Miami\ 2\ 22\ 2012\ 045.JPG);
+  background-size: cover;
+  background-repeat: no-repeat; 
+     
+}
+
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+
+
+
+
+  
+
+
+header{
+  height: 118px;
+  text-align: center;         
+}
+nav{
+  font-family: 'IBM Plex Serif', serif;  
+  font-style: italic;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+
+}
+
+h1{font-size: 30px;
+  color:white;
+  font-family: 'IBM Plex Serif', serif;
+  font-style: italic;
+
+
+}
+
+p{
+  font-size: 20px;
+  color: w;
+  font-family: 'IBM Plex Serif', serif;
+  font-style: italic;
+  }
+
+main{height: 400px;
+  text-align: center;  
+  padding-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px; 
+
+}
+
+footer{
+  
+  height: 8px;
+  text-align: left;
+  color:white;
+  
+
+}
+a{  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none; 
+  color: white; }
+
+
+.inco{
+  font-size: smaller;
+}
+
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  
+  
+}
+

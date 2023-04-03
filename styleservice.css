@@ -1,0 +1,40 @@
+main{
+  width:100%;
+  height: calc(100vh - 60px);
+  background-color: #1a253a;
+  
+  margin-top: 60px;
+  background-image: url(./image/groomring.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  z-index: 100;
+}
+
+.main-service p { 
+  max-width: 680px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+* MOBILE VERSION  */
+ 
+@media only screen and (max-width: 600px) {
+
+  main{
+    align-items: flex-end;    
+  }
+
+  
+  main p { 
+    
+   margin-left: 185px;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: antiquewhite;
+  }
+}
+  

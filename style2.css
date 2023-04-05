@@ -1,0 +1,239 @@
+  main{
+    width:100%;
+    height: calc(100vh - 60px);
+    background-color: #1a253a;
+    margin-top: 60px;
+    background-image: url(./image/pexels-agung-prakoso-bayuadi-2032364\ black\ and\ white\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+    
+  }
+
+  main .main-intro h1{
+    max-width: 280px;
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  main p { 
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  main a { 
+    margin-top: 30px;
+    margin-left: 05px;
+    font-size: 18px;
+    display: block;
+    background-color: var(--site-color-01);
+    padding: 10px 20px;
+    width: fit-content;   
+    border-radius: 0px; 
+  }
+
+  main a:hover{
+    background-color: var(--site-color-01-hover);
+  }
+
+
+  main .main-intro1 p{  
+    border-left: 4px solid var(--site-color-01);
+    padding-left: 20px;
+    margin: 40px 0;
+  }
+
+  main .main-intro1 p:nth-child(2){
+    margin-left: 100px;
+  }
+
+  main .main-intro{
+    position:relative;
+    right: 10vh;
+  }
+
+  .main-intro1{
+    position:relative;
+    left: 45vh;
+  }
+
+  
+
+
+
+
+
+  /* swipper content*/
+
+  .container{
+    width: 100%;
+    height: 62vh;   
+    box-sizing: border-box;  
+    background-color: #1a253a;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+    
+  }
+
+  .swiper{
+    width: 65%;
+    height: 380px;
+    border-radius: 0px; 
+    
+  }
+
+
+  .swiper-slide img{
+    width: 100%;
+
+    
+  }
+
+
+  /* MOBILE VERSION  */
+  
+  @media only screen and (max-width: 600px) {
+
+    main{
+      align-items: flex-end;    
+    }
+
+    main .main-intro {
+      padding-bottom: 8vh;    
+    }
+    
+    main .main-intro h1{
+      font-size: 1.5rem;
+      line-height: 1.3;
+      margin-left: 185px;
+      color:antiquewhite;
+      
+    }
+    
+    main p { 
+      
+    margin-left: 185px;
+      font-size: 1rem;
+      line-height: 1.75;
+      color: antiquewhite;
+    }
+    
+    main a { 
+      margin-left: 210px;
+      color: antiquewhite;
+
+    }
+
+    .main-intro1 {
+      display: none;
+    }    
+    .index-about-flex {
+      flex-wrap: wrap;        
+      row-gap: 60px;
+    } 
+    
+    .index-about-image {
+      width: 60%;  
+    }
+
+    .index-about-image img {
+      width: 100%;
+    }
+    
+    .index-about-text {
+    flex-basis: 100%;
+    text-align: center;
+
+
+
+    }
+    
+    .index-about-text-extra{
+      padding: 20px 0;
+      text-align: left;
+    
+    }
+    .index-about p{
+    text-align: left;
+    
+    }
+    
+    .index-about-text a {   
+      margin: 0 auto;
+      
+    }
+
+    .swiper{
+      width: fit-content;
+      height: 290px;
+      border-radius: 0px; 
+     
+    }
+
+    .container{    
+      height: 28vh; 
+      
+    }
+
+
+    .footer-sitemap{
+
+      height: 28vh; 
+
+    }
+    
+  
+  
+  }
+
+  /* CATEGORY SECTION (index.css
+
+  .index-category{
+    width: 100%;
+    padding: 60px 0;
+    background-color:#EBCFA4;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  .index-category-box{
+    width:200px;
+    height: 200px;
+    background-color:#C13584;
+  }
+
+  .index-category-box:nth-child(1) {
+    background-image: url(./image/kevin3.jpg);
+    
+  }
+
+  .index-category-box:nth-child(2) {
+    background-image: url(./image/KEVIN2.png);
+    
+  }
+
+  .index-category-box:nth-child(3) {
+    background-image: url(./image/KEVIN7.png);
+    
+  }
+
+  .index-category-box:nth-child(4) {
+    background-image: url(./image/wedding-gce927b162_1920.jpg);
+    
+  }
+
+
+  .index-category-box h3{
+    font-size: 22px;
+    line-height: 28px;
+
+
+  } */
